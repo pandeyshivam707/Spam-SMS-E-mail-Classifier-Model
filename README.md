@@ -96,3 +96,14 @@ Implementing the trained model in a real-world environment to automatically clas
 
 ## Video Explanation 
 [Check out the Video Here ][(https://youtu.be/thIzLxD-sOs)](https://www.youtube.com/watch?v=dW5T0I553MM)<br>
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+## ACKNOWLEGEMENT
+
+1) Shivam Pandey: Team Lead   
+
+2)Rudra Kanojiya : ML Developer  
+
+3)Sneha Dubey : GitHub Manager and FrontEnd Developer  
+
+4)Jaideep Khare* : GitHub Manager and Algoman  
+
