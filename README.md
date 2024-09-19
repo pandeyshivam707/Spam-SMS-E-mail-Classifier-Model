@@ -98,7 +98,6 @@ Implementing the trained model in a real-world environment to automatically clas
 [Check out the Video Here ][(https://youtu.be/thIzLxD-sOs)](https://www.youtube.com/watch?v=dW5T0I553MM)<br>
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## ACKNOWLEGEMENT
-
 1) Shivam Pandey: Team Lead   
 
 2)Rudra Kanojiya : ML Developer  
