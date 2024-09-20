@@ -1,5 +1,5 @@
 
-# SPAM DETECTION SYSTEM 📰
+# SPAM DETECTION SYSTEM 
 
 Spam detection is the process of identifying and filtering out unwanted or unsolicited messages, such as emails, SMS, or social media messages, that are often sent in bulk. These messages typically contain advertisements, phishing attempts, or malicious content. Project Overview: The Spam Detection System is an AI-ML model designed to detect fake news. It uses a combination of XGBoost, logistic regression, and Naive Bayes algorithms, with a TF-IDF vectorizer for text analysis.Model Deployment: The model can be accessed via a website and Google Colab for quick analysis and performance statistics.
 
@@ -42,11 +42,7 @@ Implementing the trained model in a real-world environment to automatically clas
 ### 3. **Concatenate Datasets**
    - Both datasets are combined into a single DataFrame `dataset` using `pd.concat`. This allows you to work with one dataset, combining the real and fake news data.
 
-### 4. **Handle Missing Data**
-   - `isnull().sum()` is used to check for missing data in both `dataset_1` and `dataset_2`.
-   - You fill any missing values in the combined `dataset` with a space (`' '`), ensuring that there are no null values before model training.
-
-### 5. **Stemming Function**
+### 4. **Stemming Function**
    - You define a `stemming()` function that:
      - Removes non-alphabetical characters.
      - Converts the text to lowercase.
@@ -94,8 +90,6 @@ Implementing the trained model in a real-world environment to automatically clas
 5. Training The models
 6. Testing with manual Inputs
 
-## Video Explanation 
-[Check out the Video Here ][(https://youtu.be/thIzLxD-sOs)](https://www.youtube.com/watch?v=dW5T0I553MM)<br>
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## ACKNOWLEGEMENT
 1) Shivam Pandey: Team Lead   
