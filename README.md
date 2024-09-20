@@ -35,12 +35,11 @@ Implementing the trained model in a real-world environment to automatically clas
 
 ### 2. **Load Datasets**
    You are loading two datasets:
-   - `news_dataset.csv`: Contains a labeled dataset of real and fake news (`dataset_1`).
-   - `train.csv`: Another dataset with text fields (`dataset_2`).
+   - `spam.csv`: Contains a labeled dataset of spam or ham messages (`dataset_1`).
    - For `dataset_1`, you replace the labels `FAKE` with `1` and `REAL` with `0`.
 
 ### 3. **Concatenate Datasets**
-   - Both datasets are combined into a single DataFrame `dataset` using `pd.concat`. This allows you to work with one dataset, combining the real and fake news data.
+   - Both datasets are combined into a single DataFrame `dataset` using `pd.concat`. This allows you to work with one dataset, combining the ham or spam messages.
 
 ### 4. **Stemming Function**
    - You define a `stemming()` function that:
@@ -62,7 +61,7 @@ Implementing the trained model in a real-world environment to automatically clas
 
 ## Approach
 1. **Data Loading and Preprocessing**:
-   - Two datasets are loaded: one containing e-mail with labels (fake or real) and another with additional text data.
+   - Two datasets are loaded: one containing e-mail/messages with labels (fake or real) and another with additional text data.
    - Unnecessary columns were removed
    - Missing values are filled with empty spaces, and labels are converted to binary (FAKE = 1, REAL = 0).
    - A **stemming** function is applied to clean and preprocess the text, removing unwanted characters and stopwords, and reducing words to their root form.
@@ -79,8 +78,8 @@ Implementing the trained model in a real-world environment to automatically clas
    - Each model is evaluated on the training and testing sets using **accuracy_score** to calculate prediction accuracy.
 
 4. **Output**:
-   - The program displays the prediction (REAL or FAKE) for the input e-mail data and provides the accuracy of the models on the test data.
-     
+   - The program displays the prediction (REAL or FAKE) for the input e-mail/messages data and provides the accuracy of the models on the test data.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------     
 ## Workflow
 
 1. Data Preparation
@@ -92,6 +91,7 @@ Implementing the trained model in a real-world environment to automatically clas
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## ACKNOWLEGEMENT
+
 1) Shivam Pandey: Team Lead   
 
 2)Rudra Kanojiya : ML Developer  
