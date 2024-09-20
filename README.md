@@ -1,13 +1,13 @@
 
-## **ELECTRONIC MAIL SPAM DETECTION :-                <br>
+## ELECTRONIC MAIL SPAM DETECTION :-                <br>
 Spam detection is the process of identifying and filtering out unwanted or unsolicited messages, such as emails, SMS, or social media messages, that are often sent in bulk. These messages typically contain advertisements, phishing attempts, or malicious content. Project Overview: The Spam Detection System is an AI-ML model designed to detect spam messages. It uses a combination of XGBoost, logistic regression, and Naive Bayes algorithms, with a TF-IDF vectorizer for text analysis.Model Deployment: The model can be accessed via a website and Google Colab for quick analysis and performance statistics.
 
-   ## **% of Spam and Ham**
+   ## % of Spam and Ham
 ![image](https://github.com/user-attachments/assets/411ec455-3151-477d-a23d-09cafd5c112a)
 
 -------------------------------------------------------------------------------------------------
 
-## **How to Pre-Processing datasets**<br>
+## How to Pre-Processing datasets <br>
 **Data Collection:** <br>
 Collecting a large dataset of messages labeled as spam or not spam.<br>
 **Preprocessing:** <br>
@@ -28,7 +28,7 @@ Data Loading and Preprocessing:
 Train-Test Split:The data is split into training (80%) and testing (20%) sets using train_test_split.
 Output:The program displays the prediction (REAL or FAKE) for the input e-mail/messages data and provides the accuracy of the models on the test data.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------     
-## Workflow
+## Steps for implementation
 
 1. Data Preparation
 2. Pre Processing
